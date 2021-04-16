@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button3 {
+    width: 25%;
+    border-radius: 4px;
+    }
+.bg {
+  /* The image used */
+  background-image: url("img/bg.png");
+  opacity: 0.9;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron{
+    margin: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.projectimg{
+    width:120px;
+    height:120px;
+    margin-right:15px;
+    float: left;
+    border: 1px solid black;
+    padding: 5px;
+}
+footer {
+
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(22, 21, 21);
+   color: white;
+   text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div >
+   <div class="bg" >
+    <ul>
+        <!-- <li><a target="_blank" href="index.html">Home</a></li> -->
+        <li><a target="" href="#about">About</a></li>
+        <!-- <li><a target="_blank" href="qualification.html">Qualifications</a></li> -->
+        <li><a target="" href="#projects">Projects</a></li>
+        <li><a target="" href="#contact">Contact me</a></li>
+    </ul>
+    <div class="container" style="color: rgb(250, 244, 247);">
+        
+          <h1 style="text-align: center;">Anjali Mohan</h1>
+          <h5>Hi there!</h5>      
+          <p>I am Anjali Mohan. I am a passionate developer who is seeking to work in a creative environment</p>
+          <a target="" href="index.html"><button type="button" class="btn" style="background-color: black; color: white;">Go to Site</button></a>
+    <br>
+    <br>
+    </div>
+   </div>
+   <br>
+   <h2 id="projects" style="color: black;">Projects</h2>
+   <div>
+        <img class="projectimg"src="img/pac.png" alt="Pac-man">
+        <h4>Pac-man</h4>
+        <p><b>Description :</b> &nbsp; This project is all about the implementation of this project is all about the implementation of Pac-man game, a very popular arcade game. 
+            The objective of the game is to make the pac-man(the player ) travel through a maze and eat all of the dots placed in the maze 
+            while avoiding four colored ghosts by not getting in touch with them. if they touch, the game ends.
+        </p>
+        <p><b>Technology : </b>Python, GUI Tkinter;   
+   </div>
+   <hr>
+   <div>
+       <img class="projectimg"src="img/conway.png" alt="Conway's Game of life">
+       <h4>Conway's Game of Life</h4>
+       <p><b>Description :</b>&nbsp; This project is all about the implementation of The Game of Life (an example of a cellular automation) which is played on an infinite two-dimensional rectangular grid of cells. Each cell can be either alive or dead. The status of each cell changes at each turn of the game (also called a generation) depending on the status of that cell’s adjacent eight neighbor cells. Neighbors of a cell are the cells that touch that cell horizontally, vertically, or diagonally. </p>
+       <p><b>Technology : </b>Java, JavaVFX;    
+   </div>
+   
+<hr>
+   <div>
+       <img class="projectimg"src="img/web.jpg" alt="Pineapple">
+       <h4>Python Web Server - Socket Programming</h4>
+       <p><b>Description :</b> &nbsp; this project is all about the implementation of http web server, which gives you experience 
+           in developing concurrent network applications. The client program (the browsers) communicates with the server program 
+           (your web server) using HyperText Transport Protocol. Respond properly to any HTTP 1.1 request with HEAD, GET and provides correct error code to 
+           requests made
+       </p>
+       <p><b>Technology : </b>Socket Programming, Python;    
+   </div>
+   <hr>
+   <div id="about" style="margin: 10px;">
+       <h2>About</h2>
+       <p>I graduated last year and I'm currently pursuing my Masters in Information and Technology.
+           I am a competent, loyal, hard working person with the ability to achieve tasks when working alone or as part of a team
+           
+       </p>
+   </div>
+   
+   <hr>
+   
+   
+   <div id="contact"  style="text-align: center; color: black;">
+    <h2 style="color: black;">Contact me </h2>
+    <div>
+        <p><span class="glyphicon glyphicon-envelope"></span> &nbsp;<strong>Email-Id : &nbsp; anju4future@gmail.com</strong></p>
+    </div>
+    <div>
+        <h6>Github Link:</h6>
+        <p><a target="_blank" href="https://github.com/AnjaliMohan27"><button class="button button3">Go to Site</button></a></p>
+    </div>
+    <div>
+        <h6>LinkedIn:</h6>
+        <p><a target="_blank" href="https://www.linkedin.com/in/anjalimohanuppu"><button class="button button3">Go to Site</button></a></p>
+    </div>
+
+   </div>
+   <div>
+        <footer>
+            <p>U Anjali Mohan  |
+            <a style= "text-decoration: none; color: white;"href="mailto:anju4future@gmail.com" >anju4future@gmail.com</a></p>
+          </footer>
+    </div>
+</div>
+
+    
+
+
+</body>
+</html>
